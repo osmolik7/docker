@@ -1,0 +1,43 @@
+<mxfile host="65bd71144e">
+    <diagram id="Xds4iox072A1VGzhgb-d" name="Page-1">
+        <mxGraphModel dx="1316" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="1">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="yQIkWbRtMj1X4mCLajfu-3" edge="1" parent="1" source="yQIkWbRtMj1X4mCLajfu-1" style="edgeStyle=none;html=1;rounded=1;" target="yQIkWbRtMj1X4mCLajfu-2" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="yQIkWbRtMj1X4mCLajfu-1" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;roundedPerimeter=1;" value="Docker" vertex="1">
+                    <mxGeometry height="60" width="120" x="480" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="yQIkWbRtMj1X4mCLajfu-5" edge="1" parent="1" source="yQIkWbRtMj1X4mCLajfu-2" style="edgeStyle=none;html=1;rounded=1;" target="yQIkWbRtMj1X4mCLajfu-4" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="yQIkWbRtMj1X4mCLajfu-2" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;roundedPerimeter=1;" value="Image" vertex="1">
+                    <mxGeometry height="60" width="120" x="480" y="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="yQIkWbRtMj1X4mCLajfu-4" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;roundedPerimeter=1;" value="Container" vertex="1">
+                    <mxGeometry height="60" width="120" x="670" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="yQIkWbRtMj1X4mCLajfu-6" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="Repositorio" vertex="1">
+                    <mxGeometry height="60" width="120" x="230" y="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="yQIkWbRtMj1X4mCLajfu-12" edge="1" parent="1" source="yQIkWbRtMj1X4mCLajfu-11" style="edgeStyle=none;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;rounded=1;" target="yQIkWbRtMj1X4mCLajfu-2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="yQIkWbRtMj1X4mCLajfu-11" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="Dockerfile" vertex="1">
+                    <mxGeometry height="60" width="120" x="230" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="KzDYmvspMi4PwZUxMKyx-3" connectable="0" parent="1" style="group;fontColor=#00CC00;fontSize=12;rounded=1;roundedPerimeter=1;" value="" vertex="1">
+                    <mxGeometry height="30" width="70" x="390" y="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="yQIkWbRtMj1X4mCLajfu-7" edge="1" parent="KzDYmvspMi4PwZUxMKyx-3" source="yQIkWbRtMj1X4mCLajfu-6" style="edgeStyle=none;html=1;rounded=1;" target="yQIkWbRtMj1X4mCLajfu-2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="KzDYmvspMi4PwZUxMKyx-1" parent="KzDYmvspMi4PwZUxMKyx-3" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=1;fontColor=#00994D;roundedPerimeter=1;" value="docker pull" vertex="1">
+                    <mxGeometry height="30" width="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
