@@ -5,3 +5,6 @@
 - Nos permite utilizar **imágenes**, que son como plantillas con toda la configuración para levantar una aplicación.
 - Podemos tener diferentes instancias de una misma plantilla totalmente aisladas.
 - Indiferente edel sistema operativo HOST que lo esta ejecutando.
+
+## Comandos Adicionales
+docker exec -it /bin/sh
