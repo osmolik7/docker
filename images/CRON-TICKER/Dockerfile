@@ -1,11 +1,25 @@
-FROM node:22.23.5-alpine3.24
+# /app / usr /lib
+FROM --platform=$BUILDPLATFORM node:22.23.5-alpine3.24
 
+# cd app
 WORKDIR /app
 
-COPY package.json app.js ./
+# Destination /app
+COPY package.json ./
 
-COPY tasks/ ./tasks/
-
+# Install dependencies
 RUN npm install
+
+# Destination /app
+COPY . .
+
+# Realize testing
+RUN npm run test
+
+# Delete files and directories not necessary for production
+RUN rm -rf tests && rm -rf node_modules
+
+##Install production dependencies
+RUN npm install --only=production
 
 CMD ["node", "app.js"]
