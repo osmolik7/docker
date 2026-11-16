@@ -38,6 +38,9 @@ Construcción de imagenes con soporte a diferentes plataformas
 Crea un contenedor para la creacion de imagenes multiplaforma y establezco como por defecto , docker buildx use container-builder: 
 `docker buildx create --name container-builder --driver docker-container --bootstrap --use`
 
+Usa la nueva extensión para crear imagenes multiplaforma
+`docker buildx use container-builder`
+
 Comandos útilies
 - `docker buildx ls`
 - `docker buildx inspec`
