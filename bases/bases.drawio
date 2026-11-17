@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="eU768GTBPVAKIGbHWhtD" name="Page-1">
-        <mxGraphModel dx="3842" dy="1075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="1">
+        <mxGraphModel dx="2282" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="1">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -150,7 +150,7 @@
                 <mxCell id="9CV9Vpw7VnWl6V0oGdNu-23" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="docker container rm -f idcontainer" vertex="1">
                     <mxGeometry height="60" width="195" x="-465.5" y="338" as="geometry"/>
                 </mxCell>
-                <mxCell id="9CV9Vpw7VnWl6V0oGdNu-26" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="&lt;div&gt;docker container run -d -p 8080:80 nombrecontenedor&lt;/div&gt;-d (detached)&lt;div&gt;-p (published)&lt;/div&gt;&lt;div&gt;8080:80 local:contenedor&lt;/div&gt;" vertex="1">
+                <mxCell id="9CV9Vpw7VnWl6V0oGdNu-26" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="&lt;div&gt;docker container run -d -p 8080:80 nombreimagen&lt;/div&gt;-d (detached)&lt;div&gt;-p (published)&lt;/div&gt;&lt;div&gt;8080:80 local:contenedor&lt;/div&gt;" vertex="1">
                     <mxGeometry height="85" width="340" x="-840" y="425" as="geometry"/>
                 </mxCell>
                 <mxCell id="9CV9Vpw7VnWl6V0oGdNu-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Sirve para enviar variables para el código de la imagen" vertex="1">
